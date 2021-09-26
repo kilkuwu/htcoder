@@ -202,7 +202,7 @@ html {
 
 #content .content-section .likes .like-item:hover {
     animation-name: slowlyshow;
-    animation-duration: 10s;
+    animation-duration: 5s;
     animation-timing-function: ease-out;
     animation-iteration-count: 1;
 }
