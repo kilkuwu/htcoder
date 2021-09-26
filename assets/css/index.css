@@ -133,10 +133,14 @@ html {
 
 #slider {
     position: relative;
-    margin-top: 64px;
     padding-top: 55%;
-    background: url(http://www.dwanghong.com/uploadfile/2019/0328/20190328111903877.jpg) center 25% / cover no-repeat;
+    background: url(../img/mixianxian.jpg) center 25% / cover no-repeat;
+    opacity: 0;
     text-shadow: 2 2 5px rgba(0, 0, 0, 0.3);
+}
+
+#slider:hover {
+    opacity: 0.05;
 }
 
 #slider .text-content {
@@ -193,7 +197,7 @@ html {
     display: inline-block;
     margin: 40px 30px;
     border-radius: 10px;
-    opacity: 0.9;
+    opacity: 0;
 }
 
 #content .content-section .likes .like-item:hover {
@@ -267,15 +271,15 @@ html {
 }
 
 #project-img1 {
-    background: url(/assets/img/anyfs.png) center center / cover no-repeat;
+    background: url(../img/anyfs.png) center center / cover no-repeat;
 }
 
 #project-img2 {
-    background: url(/assets/img/bslogo.webp) center center / cover no-repeat;
+    background: url(../img/bslogo.webp) center center / cover no-repeat;
 }
 
 #project-img3 {
-    background: url(/assets/img/patriot.png) center center / cover no-repeat;
+    background: url(../img/patriot.png) center center / cover no-repeat;
 }
 
 #tour .project-item .project-name, .project-state, .project-description {
