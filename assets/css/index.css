@@ -134,19 +134,20 @@ html {
 #slider {
     position: relative;
     padding-top: 55%;
-    background: url(../img/mixianxian.jpg) center 25% / cover no-repeat;
-    opacity: 0;
+    /* background: url(../img/mixianxian.jpg) center 25% / cover no-repeat; */
+    background: url(https://i.pinimg.com/originals/37/05/d0/3705d0887d8da52ed311e9d66349a1b0.jpg) center center / cover no-repeat;
+    opacity: 1;
     text-shadow: 2 2 5px rgba(0, 0, 0, 0.3);
 }
 
 #slider:hover {
-    opacity: 0.05;
+    animation: slowlyshow 2s 1;
 }
 
 #slider .text-content {
     font-family: cursive;
     text-align: center;
-    color: white;
+    color: black;
     width: 100%;
     /* left: 50%;
     transform: translateX(-50%); */
@@ -202,7 +203,7 @@ html {
 
 #content .content-section .likes .like-item:hover {
     animation-name: slowlyshow;
-    animation-duration: 5s;
+    animation-duration: 10s;
     animation-timing-function: ease-out;
     animation-iteration-count: 1;
 }
