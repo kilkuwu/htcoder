@@ -1,2 +1,2 @@
-# Personal-Webpage
-If you ever get here, I have no idea.
+# About
+Hi, this is the website where I introduce myself.
