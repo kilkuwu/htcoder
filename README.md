@@ -1,2 +1,2 @@
 # About
-Hi, this is the website where I introduce myself.
+Hi, this is a random website.
